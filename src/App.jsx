@@ -1,5 +1,13 @@
+import Hero from "./components/Hero";
+import NFTGallery from "./components/NFTGallery";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Hero />
+      <NFTGallery />
+    </main>
+  );
 };
 
 export default App;
